@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/anasayfaFragment">
+
+    <fragment
+        android:id="@+id/sonucFragment"
+        android:name="com.example.trafikk.ui.fragment.SonucFragment"
+        android:label="SonucFragment">
+        
+        <action
+            android:id="@+id/sonucdanAnasayfayaGecis"
+            app:destination="@id/anasayfaFragment" />
+            
+        <action
+            android:id="@+id/sonucdansinavagecis"
+            app:destination="@id/sinavFragment" />
+
+        <argument
+            android:name="dogruSayac"
+            app:argType="integer" />
+        <argument
+            android:name="yanlisSayac"
+            app:argType="integer" />
+    </fragment>
+
+    <!-- Diğer fragment tanımlamaları -->
+
+</navigation> 

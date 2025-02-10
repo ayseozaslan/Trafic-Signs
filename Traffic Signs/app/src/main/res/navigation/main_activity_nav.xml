@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity_nav"
+    app:startDestination="@id/anasayfaFragment">
+
+    <fragment
+        android:id="@+id/anasayfaFragment"
+        android:name="com.example.trafikk.ui.fragment.AnasayfaFragment"
+        android:label="AnasayfaFragment"
+        tools:layout="@layout/fragment_anasayfa"
+        >
+        <action
+            android:id="@+id/tehlikeUyariGecis"
+            app:destination="@id/tehlikeUyariFragment" />
+        <action
+            android:id="@+id/bilgiIsaretleriGecis"
+            app:destination="@id/bilgiIsaretleriFragment" />
+        <action
+            android:id="@+id/durmaVeParketmeGecis"
+            app:destination="@id/durmaVeParketmeFragment" />
+        <action
+            android:id="@+id/yatayIsaretlemeGecis"
+            app:destination="@id/yatayIsaretlemeFragment" />
+        <action
+            android:id="@+id/trafikTanzimGecis"
+            app:destination="@id/trafikTanzimFragment" />
+        <action
+            android:id="@+id/sinavGecis"
+            app:destination="@id/sinavFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/trafikTanzimFragment"
+        android:name="com.example.trafikk.ui.fragment.TrafikTanzimFragment"
+        android:label="TrafikTanzimFragment"
+        tools:layout="@layout/fragment_trafik_tanzim"
+        />
+    <fragment
+        android:id="@+id/tehlikeUyariFragment"
+        android:name="com.example.trafikk.ui.fragment.TehlikeUyariFragment"
+        android:label="TehlikeUyariFragment"
+        tools:layout="@layout/fragment_tehlike_uyari"/>
+    <fragment
+        android:id="@+id/bilgiIsaretleriFragment"
+        android:name="com.example.trafikk.ui.fragment.BilgiIsaretleriFragment"
+        android:label="BilgiIsaretleriFragment"
+        tools:layout="@layout/fragment_bilgi_isaretleri"/>
+    <fragment
+        android:id="@+id/durmaVeParketmeFragment"
+        android:name="com.example.trafikk.ui.fragment.DurmaVeParketmeFragment"
+        android:label="DurmaVeParketmeFragment"
+        tools:layout="@layout/fragment_durma_ve_parketme"/>
+    <fragment
+        android:id="@+id/yatayIsaretlemeFragment"
+        android:name="com.example.trafikk.ui.fragment.YatayIsaretlemeFragment"
+        android:label="YatayIsaretlemeFragment"
+        tools:layout="@layout/fragment_yatay_isaretleme"/>
+    <fragment
+        android:id="@+id/sinavFragment"
+        android:name="com.example.trafikk.ui.fragment.SinavFragment"
+        android:label="SinavFragment"
+        tools:layout="@layout/fragment_sinav">
+        <action
+            android:id="@+id/sinavdanSonucaGecis"
+            app:destination="@id/sonucFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sonucFragment"
+        android:name="com.example.trafikk.ui.fragment.SonucFragment"
+        android:label="SonucFragment"
+        tools:layout="@layout/fragment_sonuc">
+        <argument
+            android:name="dogruSayac"
+            app:argType="integer" />
+        <argument
+            android:name="yanlisSayac"
+            app:argType="integer" />
+        <action
+            android:id="@+id/sonucToSinav"
+            app:destination="@id/sinavFragment" />
+        <action
+            android:id="@+id/sonucToAnasayfa"
+            app:destination="@id/anasayfaFragment" />
+    </fragment>
+</navigation>

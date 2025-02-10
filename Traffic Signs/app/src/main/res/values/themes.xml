@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Trafikk" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Override default button style -->
+        <item name="materialButtonStyle">@style/CustomButtonStyle</item>
+        <item name="android:buttonStyle">@style/CustomButtonStyle</item>
+        <!-- Disable colorPrimary to prevent purple tint -->
+        <item name="colorPrimary">@android:color/white</item>
+        <item name="colorPrimaryVariant">@android:color/white</item>
+        <item name="colorOnPrimary">@android:color/black</item>
+    </style>
+
+    <style name="Theme.Trafikk" parent="Base.Theme.Trafikk" />
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="anasayfaFragment"
+            type="com.example.trafikk.ui.fragment.AnasayfaFragment" />
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <!-- Toolbar -->
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/white"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- TabLayout -->
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tablayout"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar"
+            app:tabBackground="@drawable/tab_background_selector"
+            app:tabGravity="center"
+            app:tabIndicatorColor="#BD0B2D"
+            app:tabIndicatorFullWidth="true"
+            app:tabMaxWidth="200dp"
+            app:tabMinWidth="100dp"
+            app:tabMode="scrollable"
+            app:tabPadding="16dp"
+            app:tabSelectedTextColor="@color/white"
+            app:tabTextAppearance="@style/MyTabLayoutTextAppearance"
+            app:tabTextColor="#8C8282" />
+
+        <!-- ViewPager2 -->
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPager2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonAnasayfa"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tablayout" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="120dp"
+            android:text="Trafik İşaretleri"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/buttonAnasayfa"
+            android:layout_width="116dp"
+            android:layout_height="58dp"
+            android:background="@drawable/anasayfa"
+            android:textAlignment="center"
+            android:textColor="#A30303"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/buttonSinav"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/buttonSinav"
+            android:layout_width="134dp"
+            android:layout_height="58dp"
+            android:background="@drawable/sinav"
+            android:onClick="@{() -> anasayfaFragment.sinavTikla()}"
+            android:textAlignment="center"
+            android:textColor="#676262"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/buttonAnasayfa" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="-90dp"
+            android:layout_marginBottom="4dp"
+            app:layout_constraintBottom_toTopOf="@+id/tablayout"
+            app:layout_constraintEnd_toStartOf="@+id/toolbar"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/resim" />
+
+        <ImageView
+            android:id="@+id/imageViewGoruntu"
+            android:layout_width="51dp"
+            android:layout_height="46dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/goruntu1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </layout>
