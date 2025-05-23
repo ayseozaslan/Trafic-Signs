@@ -6,13 +6,13 @@
 # Ana Özellikler:
 
 #Kategorize Edilmiş Levhalar: 
-Trafik levhaları, sınav konularına göre kategorize edilmiştir. Bu sayede istediğiniz kategoride kendinizi test edebilir, bilginizi pekiştirebilirsiniz.
+ Trafik levhaları, sınav konularına göre kategorize edilmiştir. Bu sayede istediğiniz kategoride kendinizi test edebilir, bilginizi pekiştirebilirsiniz.
 #Test Modu:
-Kendinizi istediğiniz kategoride test ederek levhalar hakkındaki bilginizi ölçün ve eksiklerinizi görün.
+ Kendinizi istediğiniz kategoride test ederek levhalar hakkındaki bilginizi ölçün ve eksiklerinizi görün.
 #Öğrenme Modu: 
-Bilmediğiniz veya yanlış bildiğiniz levhaları kolayca kontrol edin ve daha iyi öğrenin.
+ Bilmediğiniz veya yanlış bildiğiniz levhaları kolayca kontrol edin ve daha iyi öğrenin.
 #Kullanımı Kolay: 
-Basit ve kullanıcı dostu arayüzü sayesinde levhalara hızlıca ulaşabilirsiniz.
+ Basit ve kullanıcı dostu arayüzü sayesinde levhalara hızlıca ulaşabilirsiniz.
 --------------------------------------------------------------------------------------------
 # Traffic Signs Examli, the best assistant for your exam success!
 
