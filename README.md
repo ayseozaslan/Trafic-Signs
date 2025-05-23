@@ -1,10 +1,42 @@
 
+ # Trafik İşaretleri Sınavlı, sınav başarınız için en iyi yardımcı!
+
+ Trafik İşaretleri Sınavlı uygulamamız ile ehliyet sınavına hazırlanırken trafik levhalarını öğrenmek hiç bu kadar kolay olmamıştı. İster sınav öncesi kendinizi test edin, ister trafik işaretlerini öğrenmek için uygulamamızı kullanın, Trafik İşaretleri Sınavlı her adımda yanınızda!
+
+# Ana Özellikler:
+
+#Kategorize Edilmiş Levhalar: 
+Trafik levhaları, sınav konularına göre kategorize edilmiştir. Bu sayede istediğiniz kategoride kendinizi test edebilir, bilginizi pekiştirebilirsiniz.
+#Test Modu:
+Kendinizi istediğiniz kategoride test ederek levhalar hakkındaki bilginizi ölçün ve eksiklerinizi görün.
+#Öğrenme Modu: 
+Bilmediğiniz veya yanlış bildiğiniz levhaları kolayca kontrol edin ve daha iyi öğrenin.
+#Kullanımı Kolay: 
+Basit ve kullanıcı dostu arayüzü sayesinde levhalara hızlıca ulaşabilirsiniz.
+--------------------------------------------------------------------------------------------
+# Traffic Signs Examli, the best assistant for your exam success!
+
+With our Traffic Signs Examli application, learning traffic signs while preparing for the driving license exam has never been easier. Whether you test yourself before the exam or use our application to learn traffic signs, Traffic Signs Examli is with you every step of the way!
+
+# Main Features:
+
+# Categorized Signs:
+Traffic signs are categorized according to exam topics. In this way, you can test yourself in the category you want and reinforce your knowledge.
+# Test Mode:
+Measure your knowledge about signs by testing yourself in the category you want and see your deficiencies.
+# Learn Mode:
+Easily check the signs you don't know or know wrong and learn better.
+# Easy to Use:
+You can access the signs quickly thanks to its simple and user-friendly interface.
+ 
 https://github.com/user-attachments/assets/6ec4f96d-3a63-4f35-905b-e6525bb4fc36
 
+# Ekran Görüntüleri:
+  # 1.Trafik Levhası Ekranları (Trafik Levhası Ekranları):
+![Image](https://github.com/user-attachments/assets/5a7f1ce7-1f8c-46eb-9a13-54753d294e7c)
+
+  # 2.Sınav ve Sonuç Ekranları(Exam and Result Screens):
+  ![Image](https://github.com/user-attachments/assets/e0bd41d2-6e50-4227-a625-de35efed0a70)
 
 
-<img width="213" alt="app2" src="https://github.com/user-attachments/assets/cbb4c131-1f4b-4ed0-90c7-4a68011f1618" />
-<img width="288" alt="Ekran Resmi 2025-01-25 18 37 23" src="https://github.com/user-attachments/assets/e7badc66-e853-48b7-a6b3-907bbc84949c" />
-<img width="289" alt="app3" src="https://github.com/user-attachments/assets/d66e28e8-eba9-4320-8dac-c1318df28ed3" />
-<img width="296" alt="app4" src="https://github.com/user-attachments/assets/2e41fbf6-e34c-4511-8cdf-4c32a31db31d" />
-<img width="297" alt="app1" src="https://github.com/user-attachments/assets/32039c06-060c-4914-a32b-3d1ab1d8a35e" />
+
