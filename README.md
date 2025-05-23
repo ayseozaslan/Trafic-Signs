@@ -5,13 +5,17 @@
 
 # Ana Özellikler:
 
-#Kategorize Edilmiş Levhalar: 
+# Kategorize Edilmiş Levhalar: 
+
  Trafik levhaları, sınav konularına göre kategorize edilmiştir. Bu sayede istediğiniz kategoride kendinizi test edebilir, bilginizi pekiştirebilirsiniz.
-#Test Modu:
+ 
+# Test Modu:
  Kendinizi istediğiniz kategoride test ederek levhalar hakkındaki bilginizi ölçün ve eksiklerinizi görün.
-#Öğrenme Modu: 
+ 
+# Öğrenme Modu: 
  Bilmediğiniz veya yanlış bildiğiniz levhaları kolayca kontrol edin ve daha iyi öğrenin.
-#Kullanımı Kolay: 
+
+# Kullanımı Kolay: 
  Basit ve kullanıcı dostu arayüzü sayesinde levhalara hızlıca ulaşabilirsiniz.
 --------------------------------------------------------------------------------------------
 # Traffic Signs Examli, the best assistant for your exam success!
@@ -31,7 +35,7 @@ You can access the signs quickly thanks to its simple and user-friendly interfac
  
 https://github.com/user-attachments/assets/6ec4f96d-3a63-4f35-905b-e6525bb4fc36
 
-# Ekran Görüntüleri:
+# Ekran Görüntüleri(Screenshots):
   # 1.Trafik Levhası Ekranları (Trafik Levhası Ekranları):
 ![Image](https://github.com/user-attachments/assets/5a7f1ce7-1f8c-46eb-9a13-54753d294e7c)
 
